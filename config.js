@@ -9,7 +9,7 @@ var config = {
         domain: "127.0.1.1",
 
         // When using authentication, domain for guest users.
-        // anonymousdomain: 'guest.example.com',
+        anonymousdomain: "guest.127.0.1.1",
 
         // Domain for authenticated users. Defaults to <domain>.
         // authdomain: 'jitsi-meet.example.com',
