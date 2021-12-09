@@ -6,7 +6,7 @@ var config = {
 
     hosts: {
         // XMPP domain.
-        domain: "192.168.1.45",
+        domain: "127.0.1.1",
 
         // When using authentication, domain for guest users.
         // anonymousdomain: 'guest.example.com',
@@ -18,11 +18,11 @@ var config = {
         // focus: 'focus.jitsi-meet.example.com',
 
         // XMPP MUC domain. FIXME: use XEP-0030 to discover it.
-        muc: "conference.192.168.1.45",
+        muc: "conference.127.0.1.1",
     },
 
     // BOSH URL. FIXME: use XEP-0156 to discover it.
-    bosh: "//192.168.1.45/http-bind",
+    bosh: "https://127.0.1.1/http-bind",
 
     // Websocket URL
     // websocket: 'wss://jitsi-meet.example.com/xmpp-websocket',
